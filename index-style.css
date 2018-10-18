@@ -1,0 +1,203 @@
+/*см в доп.тхт как можно было сделать по-другому*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #fdfaf3;
+}
+.all {
+	margin: 0 auto;
+	height:300vh;
+	width: 1360px;
+	background: url(img/bg.png) no-repeat top center;
+}
+.container {
+	margin: 0 auto;
+	width: 1165px;
+}
+.clearfix {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+
+
+
+header {
+	background: url(img/blue-bg.png) no-repeat left top, url(img/_image.png) no-repeat center center;
+	height: 770px;
+}
+
+
+.menue {
+	height: 30px;
+	margin-top: 30px;
+	display: inline-block;
+	background: url(img/logo.png) no-repeat center top;
+}
+.menu-icon {
+	line-height: 30px;
+}
+.phone {
+	display: inline-block;
+	float: right;
+	line-height: 30px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: rgb(37,37,37);
+	font-family: "Muller Light";
+	font-weight: 300;
+}
+
+
+
+.menue  ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    margin-bottom: 36px;
+    color: white;
+    text-decoration: none;
+}
+ul.submenu {
+    display: none;
+    width: 1165px;
+    height: 595px;
+	background-color: rgb(18, 36, 55);
+}
+ul.submenu > li {
+    display: block;
+    box-sizing: border-box;
+}
+ul.submenu > li > a {
+    display: block;
+	height: 59px;
+	font-family: 'Raleway Bold', arial;
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 42px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul.submenu > li > a:hover {
+    color: rgb(248,162,90);
+	box-shadow: 0 0 6px rgba(0,1,6,0.05);
+}
+ul.submenu li:nth-child(1) {
+	padding-top: 140px;
+}
+ul.submenu li:last-child {
+	padding-bottom: 140px;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+ul.menu > li:hover {
+    list-style-position: inside;
+	list-style-image: url(img/002-cancel.png);
+}
+ul.menu > li {
+	list-style-position: inside;
+	list-style-image: url(img/002-menu.png);
+}
+
+
+
+
+
+.container > .content {
+	box-sizing: border-box;
+	display: block;
+	position: relative;
+	margin: 173px 0 0 90px;
+	width: 370px;
+}
+header h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 61px;
+	line-height: 59px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+header h2{
+	color: #fff;
+	font-family: "Muller Light";
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	line-height: 21px;
+	margin-top: 24px;
+	margin-bottom: 35px;
+}
+.button {
+	width: 277px;
+	height: 56px;
+	display: block;
+	border-bottom: 2px solid #fff;
+	color: #fff;
+	font-family: "Raleway ExtraBold";
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 800;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 56px;
+	box-sizing: border-box;
+}
+.button:hover {
+	border-bottom: 2px solid #f8a25a;
+	background: #f8a25a;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+
+.social {
+	margin-top: 210px;
+}
+.social a {
+	display: inline-block;
+}
+.social a:nth-child(2) {
+	margin: 0 40px 0 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+font-family: 'font3b62d4efb27c1c31a9ada8f7219bbf38';
+src:url('https://nomail.com.ua/files/eot/3b62d4efb27c1c31a9ada8f7219bbf38.eot?#iefix') format('embedded-opentype'),
+	url('https://nomail.com.ua/files/woff/3b62d4efb27c1c31a9ada8f7219bbf38.woff') format('woff'),
+	url('https://nomail.com.ua/files/woff2/3b62d4efb27c1c31a9ada8f7219bbf38.woff2') format('woff2');
+        }

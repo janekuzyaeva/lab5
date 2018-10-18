@@ -1,0 +1,51 @@
+синий квадрат как фигура css
+.blue-square {
+	height: 770px;
+	width: 50%;
+	background: rgb(18, 36, 55, .97);
+}
+
+
+
+
+
+
+
+
+раскрывающееся меню, которое закрывается по нажатию в любом месте, кроме иконки меню 
+(html)
+<a class="menu-icon" href="javascript:void(0);" tabindex="1"><img src="img/002-menu.png"></a>
+	<ul class="sub-menu"> 
+	   <li><a href="#1">Главная</a></li> 
+	   <li><a href="#2">Преимущества</a></li> 
+	   <li><a href="#3">Портфолио</a></li>
+	   <li><a href="#3">Наши услуги</a></li> 
+	   <li><a href="#3">Отзывы</a></li>
+	   <li><a href="#3">Контакты</a></li>
+	</ul>
+(css)
+.sub-menu { 
+   display: none;
+} 
+.menu-icon:focus ~ .sub-menu, .menu-icon:active ~ .sub-menu, .sub-menu:hover { 
+   display: block; 
+} 
+li {
+	list-style: none;
+}
+.sub-menu li a {
+	width: 497px;
+	height: 59px;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 42px;
+	color: #fff;
+	font-family: Raleway;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+также субменю можно сделать с помощью checkbox: http://jsfiddle.net/2XVya/
