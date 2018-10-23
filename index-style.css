@@ -15,7 +15,7 @@ body {
 }
 .container {
 	margin: 0 auto;
-	width: 1166px;
+	width: 1164px;
 	height: 770px;
 }
 .clearfix {
@@ -35,18 +35,95 @@ header {
 
 
 .menue {
+	height: 89px;
+	/*margin-top: 30px;*/
+	/*display: inline-block;*/
+	background: url(img/logo.png) no-repeat center center;
+}
+
+
+
+
+/*input[type="checkbox"] {
+	display: none;
+}*/
+.menu {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	margin: 29px 1px;
+	padding: 0;
+	width: 30px;
 	height: 30px;
-	margin-top: 30px;
-	display: inline-block;
-	background: url(img/logo.png) no-repeat center top;
+	font-size: 0;
+	text-indent: -999px;
+	appearance: none;
+	box-shadow: none;
+	border-radius: none;
+	border: none;
+	transition: background 0.3s;
+	background: none;
 }
-.menu-icon {
-	line-height: 30px;
+.menu span {
+	display: block;
+	position: absolute;
+	top: 13px;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background: #fff;
 }
+.menu span::before, .menu span::after {
+	position: absolute;
+	display: block;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	content: "";
+
+/*	transition-duration: 0.3s, 0.3s;
+	transition-delay: 0.3s, 0s;*/
+}
+.menu:focus span {
+/*	transition: background 0s 0.3s;
+*/	background: none;
+}
+.menu span::before {
+	top: -10px;
+	transition-property: top,transform;
+}
+.menu span::after {
+	bottom: -10px;
+	transition-property: bottom,transform;
+}
+.menu:focus span::before {
+	top: 0;
+	transform: rotate(45deg);
+	background: #fff;
+}
+.menu:focus span::after {
+	bottom: 0;
+	transform: rotate(-45deg);
+	background: #fff;
+}
+/*.menu:focus span::before, .menu:focus span::after {
+	transition-delay: 0s, 0.3s;
+}*/
+.menu:focus ~ .submenu {
+	display: block;
+}
+
+
+
+
+
+
+
 .phone {
 	display: inline-block;
 	float: right;
-	line-height: 30px;
+	line-height: 88px;
 	font-size: 14px;
 	letter-spacing: 1px;
 	color: rgb(37,37,37);
@@ -56,28 +133,13 @@ header {
 
 
 
-.menue  ul {
-    display: block;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 27px;
-}
-ul:after {
-    display: block;
-    content: ' ';
-    clear: both;
-    float: none;
-}
-ul.menu > li {
-    position: relative;
-}
-ul.menu > li > a {
+
+/*.submenu > li > a {
     display: block;
     margin-bottom: 36px;
     color: white;
     text-decoration: none;
-}
+}*/
 ul.submenu {
     display: none;
     width: 1165px;
@@ -132,6 +194,7 @@ header .container > .content {
 	position: relative;
 	margin: 173px 0 0 90px;
 	width: 370px;
+	z-index: 999;
 }
 header h1 {
 	font-family: 'Playfair Display', serif;
@@ -175,7 +238,7 @@ header h2{
 
 
 .social {
-	margin-top: 210px;
+	margin-top: 180px;
 }
 .social a {
 	display: inline-block;
@@ -187,11 +250,14 @@ header h2{
 
 
 
-
+.whywhy {
+	font-size: 0;
+}
 .why-us {
 	display: inline-block;
 	box-sizing: border-box;
 	height: 700px;
+	vertical-align: top;
 }
 .why-us h1 {
 	font-size: 85px;
@@ -219,16 +285,16 @@ header h2{
 	font-weight: 300;
 }
 .why-us:nth-child(1) {
-	width: 282px;
-}
-.why-us:nth-child(2) {
-	width: 292px;
-}
-.why-us:nth-child(3) {
 	width: 286px;
 }
+.why-us:nth-child(2) {
+	width: 295px;
+}
+.why-us:nth-child(3) {
+	width: 291px;
+}
 .why-us:nth-child(4) {
-	width: 293px;
+	width: 291px;
 }
 
 
