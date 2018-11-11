@@ -9,9 +9,6 @@
 
 
 
-
-
-
 раскрывающееся меню, которое закрывается по нажатию в любом месте, кроме иконки меню 
 (html)
 <a class="menu-icon" href="javascript:void(0);" tabindex="1"><img src="img/002-menu.png"></a>
