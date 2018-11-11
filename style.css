@@ -36,17 +36,15 @@ header {
 
 .menue {
 	height: 89px;
-	/*margin-top: 30px;*/
+	/* margin-top: 30px; */
 	/*display: inline-block;*/
 	background: url(img/logo.png) no-repeat center center;
 }
 
 
 
+/*исправить: при открытии меню пропадают лого и соцсети*/
 
-/*input[type="checkbox"] {
-	display: none;
-}*/
 .menu {
 	display: block;
 	overflow: hidden;
@@ -252,30 +250,49 @@ header h2{
 
 .whywhy {
 	font-size: 0;
+	height: 700px;
+	position: relative;
 }
 .why-us {
 	display: inline-block;
 	box-sizing: border-box;
+<<<<<<< HEAD:style.css
 	height: 700px;
 	padding-left: 96px;
 	vertical-align: top;
+=======
+	height: 300px;
+	margin: 100px 0;
+	padding-right: 40px;
+	position: absolute;
+	/* top: 0; right: 0; bottom: 0; left: 0; */
+>>>>>>> 1e40304544fafcb36da591ece3d8db76b2072f00:index-style.css
 }
 .why-us h1 {
 	font-size: 85px;
 	letter-spacing: 1px;
-	color: rgb(254,160,82);
+	color: rgb(254,160,82, .3);
 	font-family: "Playfair Display";
 	font-weight: bold;
+	line-height: 85px;
 }
 .why-us h2 {
+<<<<<<< HEAD:style.css
 	width: 202px;
+=======
+>>>>>>> 1e40304544fafcb36da591ece3d8db76b2072f00:index-style.css
 	font-size: 22px;
 	color: rgb(26,41,47);
+	letter-spacing: 1px;
 	font-family: 'Raleway Regular', arial;
-	font-weight: 300;
+	font-weight: 400;
+	margin: 15px 0;
 }
 .why-us p {
+<<<<<<< HEAD:style.css
 	width: 188px;
+=======
+>>>>>>> 1e40304544fafcb36da591ece3d8db76b2072f00:index-style.css
 	font-size: 16px;
 	letter-spacing: 1px;
 	line-height: 25px;
@@ -283,19 +300,30 @@ header h2{
 	font-family: 'Raleway Regular', arial;
 	font-weight: 300;
 }
-.why-us:nth-child(1) {
+.why-us:first-child {
 	width: 286px;
+	margin-left: 96px;
 }
 .why-us:nth-child(2) {
-	width: 295px;
+	width: 296px;
+	top: 100%;
+	transform: translateY(-500px);
+	left: 382px;
 }
 .why-us:nth-child(3) {
-	width: 291px;
+	width: 290px;
+	vertical-align: bottom;
+	left: 678px;
 }
-.why-us:nth-child(4) {
-	width: 291px;
+.why-us:last-child {
+	width: 296px;
+	top: 100%;
+	transform: translateY(-500px);
+	left: 968px;
 }
-
+/* .why-us:nth-child(2n) { */
+	/* vertical-align: bottom; */
+/* } */
 
 
 .portfolio {
