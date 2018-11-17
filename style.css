@@ -256,17 +256,10 @@ header h2{
 .why-us {
 	display: inline-block;
 	box-sizing: border-box;
-<<<<<<< HEAD:style.css
 	height: 700px;
-	padding-left: 96px;
 	vertical-align: top;
-=======
-	height: 300px;
-	margin: 100px 0;
-	padding-right: 40px;
+	padding: 100px 0;
 	position: absolute;
-	/* top: 0; right: 0; bottom: 0; left: 0; */
->>>>>>> 1e40304544fafcb36da591ece3d8db76b2072f00:index-style.css
 }
 .why-us h1 {
 	font-size: 85px;
@@ -277,10 +270,6 @@ header h2{
 	line-height: 85px;
 }
 .why-us h2 {
-<<<<<<< HEAD:style.css
-	width: 202px;
-=======
->>>>>>> 1e40304544fafcb36da591ece3d8db76b2072f00:index-style.css
 	font-size: 22px;
 	color: rgb(26,41,47);
 	letter-spacing: 1px;
@@ -289,10 +278,6 @@ header h2{
 	margin: 15px 0;
 }
 .why-us p {
-<<<<<<< HEAD:style.css
-	width: 188px;
-=======
->>>>>>> 1e40304544fafcb36da591ece3d8db76b2072f00:index-style.css
 	font-size: 16px;
 	letter-spacing: 1px;
 	line-height: 25px;
@@ -321,9 +306,7 @@ header h2{
 	transform: translateY(-500px);
 	left: 968px;
 }
-/* .why-us:nth-child(2n) { */
-	/* vertical-align: bottom; */
-/* } */
+
 
 
 .portfolio {
@@ -370,14 +353,22 @@ header h2{
 	float: left;
 	width: 257px;
 	height: 550px;
-	background: rgb(0,0,0,.5);
+}
+.work1 {
+	background: url(img/portfolio-1.png) left bottom;
 }
 .work-h {
 	width: 392px;
 	background: url(img/Cam3_large.png) center center;
 }
-.work-h > .selected-work {
-	display: block;
+.work3 {
+	background: url(img/portfolio-3.png) left center;
+}
+.work4 {
+	background: url(img/portfolio-4.png) center center;
+}
+.selected-work {
+	display: none;
 	position: absolute;
 	top: 232px;
 	left: 152px;
@@ -393,11 +384,48 @@ header h2{
 	font-size: 50px;
 	color: rgb(255,255,255,.9);
 }
+.work-h > .selected-work {
+	display: block;
+}
+.work h2 {
+	position: absolute;
+	left: 25px;
+	top: 20px;
+	width: 156px;
+
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 25px;
+	font-family: 'Raleway Regular', arial;
+	font-weight: 600;
+	color: #fff;
+}
+.work h3 {
+	position: absolute;
+	bottom: 95px;
+	left: -45px;
+	transform: rotate(-90deg);
+
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 25px;
+	font-family: 'Raleway Regular', arial;
+	font-weight: 300;
+	color: #fff;
+}
+
+.blue-shadow {
+	background: rgb(0,32,58,.8);
+	width: 100%;
+	height: 550px;
+}
+
+
 
 
 
 .uslugi {
-	height: 880px;
+	height: 800px;
 	padding-bottom: 145px;
 }
 .uslugi h1 {
@@ -511,6 +539,70 @@ header h2{
 }*/
 
 
+
+.video {
+	height: 590px;
+	background: url(img/video.png) center bottom;
+	position: relative;
+	z-index: 1;
+}
+.video .blue-shadow {
+	width:100%;
+	height:100%;
+	background: rgb(0,32,58,.5);
+}
+.video-label {
+	padding-top: 20%;
+	text-align: center;
+}
+.video-start-button {
+	z-index: 2;
+	margin: 0 auto;
+	width: 75px;
+	height: 75px;
+	background: #f2b47c;
+	border-radius: 50%;
+}
+.triang {
+	width: 75px;
+	height: 75px;
+	background: url(img/video-triangle.png) center center no-repeat;
+	z-index: 3;
+}
+.video h2 {
+	margin-top: 20px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-family: 'Raleway Regular', arial;
+	font-weight: 300;
+	color: #fff;
+
+	line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.back-forms {
+	background: url(img/kitchen2.png) center bottom / cover;
+	height: 680px;
+}
+.back-forms .blue-square {
+	display: block;
+	width: 680px;
+	height: 680px;
+	background: #182c3d;
+	box-sizing: border-box;
+	padding: 0 100px 0 105px;
+}
 
 
 
