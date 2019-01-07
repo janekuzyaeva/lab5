@@ -16,7 +16,7 @@ body {
 .container {
 	margin: 0 auto;
 	width: 1164px;
-	height: 770px;
+	/*height: 770px;*/
 }
 .clearfix {
 	content:'';
@@ -309,6 +309,10 @@ header h2{
 
 
 
+
+
+
+
 .portfolio {
 	height: 850px;
 }
@@ -584,7 +588,49 @@ header h2{
 
 
 
-
+.work-stage h1 {
+	margin-top: 70px;
+	margin-bottom: 50px;
+	line-height: 135px;
+	font-size: 45px;
+	color: rgb(0,32,58);
+	font-family: "Playfair Display";
+	font-weight: bold;
+}
+.article {
+	display: block;
+	float: left;
+	width: 388px;
+	font-family: 'Raleway Regular', arial;
+	margin-bottom: 80px;
+}
+.work-stage .count {
+	display: block;
+	float: left;
+	border-radius: 50%;
+	background: rgb(253, 187, 127, .3);
+	font-family: 'Raleway Regular', arial;
+	font-weight: 800;
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	margin: 0 40px 0 30px;
+	text-align: center;
+}
+.work-stage h2 {
+	font-size: 20px;
+}
+.work-stage hr {
+	display: block;
+	width: 40px;
+	margin: 20px 0 20px 92px;
+	border-bottom: 1px solid rgb(0,32,58,.7);
+}
+.work-stage p {
+	display: block;
+	margin: 0 0 0 92px;
+	color: rgb(0,32,58,.9);
+}
 
 
 
@@ -594,6 +640,8 @@ header h2{
 .back-forms {
 	background: url(img/kitchen2.png) center bottom / cover;
 	height: 680px;
+	font-family: 'Raleway Regular', arial;
+	color: white;
 }
 .back-forms .blue-square {
 	display: block;
@@ -603,7 +651,149 @@ header h2{
 	box-sizing: border-box;
 	padding: 0 100px 0 105px;
 }
+.enter {
+	padding: 40px 0 40px 0;
+	width: 41%;
+}
+.back-forms h1 {
+	font-family: "Playfair Display";
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.back-forms p {
+	font-size: 15px;
+	color: rgb(255,255,255,.5);
+	margin-bottom: 30px;
+	margin-top: 15px
+}
+.back-forms a {
+	text-decoration: none;
+	color: rgb(255,255,255,.5);
+	font-size: 15px;
+}
+.back-forms input {
+	background: initial;
+	border: 0;
+	outline: none;
+	color: rgb(255,255,255,.5);
+	font-size: 15px;
+	width: 80%;
+}
+.back-forms img {
+	display: block;
+	float: right;
+}
+.back-forms hr {
+	margin: 10px 0 45px;
+	border: none;
+	border-top: 1px solid rgb(255,255,255,.5);
+}
+.back-forms #butty {
+	border: 2px solid white;
+	border-radius: 5px;
+	font-size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+	height: 60px;
+	box-sizing: border-box;
+	font-family: "Raleway ExtraBold";
+	color: #fff;
+	line-height: 60px;
+	letter-spacing: 1px;
+	background: initial;
+}
 
+
+
+
+.aaa {
+	margin-top: 80px;
+	margin-bottom: 70px;
+	margin-left: 100px;
+	line-height: 135px;
+	font-size: 45px;
+	color: rgb(0,32,58);
+	font-family: "Playfair Display";
+	font-weight: bold;
+}
+.opinion-img-only {
+	width: 200px;
+	height: 190px;
+	display: inline-block;
+	margin: 40px 0;
+}
+.opinion-1 {
+ 	background: url(img/opinion-1.png) center center;
+ 	float: left;
+}
+.opinion-1::before {
+	position: relative;
+	display: block;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(18,36,55,.7);
+	content: "";
+}
+.opinion-2 {
+	background: url(img/opinion-2.png) center center;
+	float: right;
+}
+.opinion-h {
+	display: inline-block;
+	position: relative;
+	width: 650px;
+	height: 270px;
+	background: #fff;
+	margin: 0 100px;
+}
+.opinion-h-img {
+	background: url("img/opinion-h.png") center center;
+	float: right;
+	position: relative;
+	right: -265px;
+	top: -190px;
+
+}
+.opinion-h .opinion-text {
+	display: block;
+	float: left;
+	margin: 40px 0 40px 70px;
+	height: 190px;
+	width: 445px;
+	font-family: 'Raleway Regular', arial;
+}
+.opinion-text h2 {
+	padding-top: 10px;
+	font-size: 24px;
+	line-height: 26px;
+}
+.opinion-text h3 {
+	color: gold;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 22px;
+}
+}
+.opinion-text p {
+	font-size: 18px;
+	line-height: 22px;
+}
+.bbb {
+	width: 28px;
+	height: 4px;
+	content: '';
+	background: #aaa;
+	display: inline-block;
+	margin: 0 3px;
+}
+.bbc {
+	background: #777;
+}
 
 
 
